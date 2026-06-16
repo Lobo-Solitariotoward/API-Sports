@@ -8,10 +8,10 @@ public class ConexionMySQL {
     private Connection conn;
 
     public Connection open() {
-        String user = "apiusers";
-        String password = "S1st3mas";
-        String dbName = "sportzone_db";
-        String url = "jdbc:mysql://localhost:3306/" + dbName;
+        String user = "root";
+        String password = "wbUWIzBmDaomKIozaFXtXZAPrhgLjWwO";
+        String dbName = "railway";
+        String url = "jdbc:mysql://thomas.proxy.rlwy.net:52573/" + dbName;
         String parametros = "?useSSL=false"
                 + "&allowPublicKeyRetrieval=true"
                 + "&useUnicode=true"
