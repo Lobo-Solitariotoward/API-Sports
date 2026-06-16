@@ -10,7 +10,7 @@ public class ConexionMySQL {
     public Connection open() {
         String user = "root";
         String password = "wbUWIzBmDaomKIozaFXtXZAPrhgLjWwO";
-        String dbName = "railway";
+        String dbName = "sportzone_db";
         String url = "jdbc:mysql://thomas.proxy.rlwy.net:52573/" + dbName;
         String parametros = "?useSSL=false"
                 + "&allowPublicKeyRetrieval=true"
